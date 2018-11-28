@@ -20,7 +20,7 @@ cp -r bin/protoc /usr/local/bin/
 
 
 
-4- Generate code now
+4- Generate go classes from .proto usinng protoc compiler
 mkdir generated_code (to save output)
 
 
@@ -32,3 +32,17 @@ protoc -I=$SRC_DIR --go_out=$DST_DIR $SRC_DIR/addressbook.proto
 protoc -I=. --go_out=generated_code addressbook.proto
 
 ```
+
+
+
+
+5- how to run/test?
+
+
+```
+go run main.go testfile.json
+```
+
+
+
+

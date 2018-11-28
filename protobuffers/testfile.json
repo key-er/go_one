@@ -1,0 +1,8 @@
+{ "Id": 1234,
+  "Name": "John Doe",
+  "Email": "jdoe@example.com",
+  "Phones": {"Number": "555-4321", "Type": "MOBILE"},
+}
+
+
+
